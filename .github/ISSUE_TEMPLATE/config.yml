@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/documentnode/termtree/blob/main/SECURITY.md
+    about: Do not open a public issue. Email support@documentnode.io.
+  - name: Account, billing, or licence
+    url: mailto:support@documentnode.io
+    about: Anything involving your account or payment details.
+  - name: Documentation and guide
+    url: https://termtree.com/guide/getting-started
+    about: The full walkthrough, keyboard shortcuts, and feature guides.
+  - name: Send feedback from inside the app
+    url: https://termtree.com/download
+    about: The feedback button in TermTree's toolbar attaches your version and platform for you.

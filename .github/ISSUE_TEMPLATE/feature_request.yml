@@ -1,0 +1,34 @@
+name: Feature request
+description: Suggest something TermTree should do
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Good requests describe the problem, not just the solution — that leaves room for a better
+        answer than the one either of us thought of first.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Describe the workflow that is awkward today, and what makes it awkward.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like TermTree to do?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: How do you work around it now?
+      description: Another tool, a manual step, or simply living with it.
+  - type: checkboxes
+    id: search
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues for this request
+          required: true
