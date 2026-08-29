@@ -1,6 +1,6 @@
 name: benchmark
 
-# CI guardrail for benchmark/ (taskhub#669) -- the one directory of runnable
+# CI guardrail for benchmark/ -- the one directory of runnable
 # source in this otherwise source-free, closed-source repository. Runs on
 # macOS because the harness is macOS-only by design: it depends on
 # lsappinfo, footprint, vm_stat, notifyutil, and pmset, all Darwin-only
@@ -49,6 +49,10 @@ jobs:
       # unstable_features), so the format check needs a nightly rustfmt --
       # stable `cargo fmt` reads a different subset of the config and
       # produces different output.
+      # Installing nightly second makes it rustup's default, so every step
+      # below names its toolchain explicitly rather than relying on that
+      # ordering -- `cargo clippy` under nightly fails outright, since the
+      # nightly toolchain installed here carries rustfmt and nothing else.
       - name: Install Rust nightly (rustfmt only)
         uses: dtolnay/rust-toolchain@nightly
         with:
@@ -63,7 +67,7 @@ jobs:
         run: cargo +nightly fmt -- --check
 
       - name: Clippy
-        run: cargo clippy --all-targets -- -D warnings
+        run: cargo +stable clippy --all-targets -- -D warnings
 
       - name: Test
-        run: cargo test
+        run: cargo +stable test
