@@ -1,0 +1,74 @@
+ 1) "loginwindow" ASN:0x0-0x32d62d3: 
+    bundleID="com.apple.loginwindow"
+    bundle path="/System/Library/CoreServices/loginwindow.app"
+    executable path="/System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow"
+    pid = 55070 type="UIElement" flavor=3 Version="3037.6.3" fileType="APPL" creator="lgnw" Arch=ARM64 
+    checkin time = 2026/08/01 08:15:15 ( 23 days, 9 hours, 45 minutes, 0.229484 seconds ago )
+
+ 2) "WindowManager" ASN:0x0-0x32da2d7: 
+    bundleID="com.apple.WindowManager"
+    bundle path="/System/Library/CoreServices/WindowManager.app"
+    executable path="/System/Library/CoreServices/WindowManager.app/Contents/MacOS/WindowManager"
+    pid = 55130 type="UIElement" flavor=3 Version="278.4.7" fileType="APPL" Arch=ARM64 sandboxed
+
+ 3) "universalaccessd" ASN:0x0-0x32db2d8: 
+    bundleID=[ NULL ] 
+    bundle path="/usr/sbin/universalaccessd"
+    executable path="/usr/sbin/universalaccessd"
+    pid = 55129 !signalled type="BackgroundOnly" flavor=3 Version=[ NULL ]  fileType="????" creator="????" Arch=ARM64 
+    checkin time = 2026/08/01 08:15:25 ( 23 days, 9 hours, 44 minutes, 50.1559 seconds ago )
+
+ 4) "Control Centre" ASN:0x0-0x32dc2d9: 
+    bundleID="com.apple.controlcenter"
+    bundle path="/System/Library/CoreServices/ControlCenter.app"
+    executable path="/System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter"
+    pid = 55127 type="UIElement" flavor=3 Version="1" fileType="APPL" creator="????" Arch=ARM64 
+    checkin time = 2026/08/01 08:15:25 ( 23 days, 9 hours, 44 minutes, 50.132 seconds ago )
+
+57) "TermTree" ASN:0x0-0xca30a24: (in front) 
+    bundleID="com.termtree.desktop"
+    bundle path="/Applications/TermTree.app"
+    executable path="/Applications/TermTree.app/Contents/MacOS/termtree"
+    pid = 56070 type="Foreground" flavor=3 Version="20260816.78283" fileType="APPL" creator="????" Arch=ARM64 
+    parentASN="Finder" ASN:0x0-0x32f02ed: 
+    launch time =  2026/08/16 22:06:58 ( 7 days, 19 hours, 53 minutes, 16.9966 seconds ago )
+    checkin time = 2026/08/16 22:06:59 ( 7 days, 19 hours, 53 minutes, 15.854 seconds ago )
+    launch to checkin time: 1.14266 seconds
+
+58) "TermTree Networking" ASN:0x0-0xca31a25: 
+    bundleID="com.apple.WebKit.Networking"
+    bundle path="/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc"
+    executable path="/System/Volumes/Preboot/Cryptexes/OS/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking"
+    pid = 56074 !cgsConnection !signalled type="UIElement" flavor=[ NULL ]  Version="20621.3.11.11.3" fileType="XPC!" creator="????" Arch=ARM64 sandboxed
+
+59) "TermTree Graphics and Media" ASN:0x0-0xca32a26: 
+    bundleID="com.apple.WebKit.GPU"
+    bundle path="/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.GPU.xpc"
+    executable path="/System/Volumes/Preboot/Cryptexes/OS/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.GPU.xpc/Contents/MacOS/com.apple.WebKit.GPU"
+    pid = 56072 !cgsConnection !signalled type="UIElement" flavor=[ NULL ]  Version="20621.3.11.11.3" fileType="XPC!" creator="????" Arch=ARM64 sandboxed
+
+60) "TermTree Web Content" ASN:0x0-0xca51a45: 
+    bundleID="com.apple.WebKit.WebContent"
+    bundle path="/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc"
+    executable path="/System/Volumes/Preboot/Cryptexes/OS/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent"
+    pid = 64305 !cgsConnection !signalled type="UIElement" flavor=2 Version="20621.3.11.11.3" fileType="XPC!" creator="????" Arch=ARM64 sandboxed
+
+61) "TermTree Web Content" ASN:0x0-0xcb08afc: 
+    bundleID="com.apple.WebKit.WebContent"
+    bundle path="/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc"
+    executable path="/System/Volumes/Preboot/Cryptexes/OS/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent"
+    pid = 83276 !cgsConnection !signalled type="UIElement" flavor=2 Version="20621.3.11.11.3" fileType="XPC!" creator="????" Arch=ARM64 sandboxed
+
+56) "Google Chrome Helper" ASN:0x0-0xc7086fc: 
+    bundleID="com.google.Chrome.helper"
+    bundle path="/Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/151.0.7922.138/Helpers/Google Chrome Helper.app"
+    executable path="/Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/151.0.7922.138/Helpers/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper"
+    pid = 39283 type="UIElement" flavor=3 Version="7922.138" fileType="APPL" creator="????" Arch=ARM64 
+    parentASN="Google Chrome" ASN:0x0-0xc7066fa:  (inferred)
+    checkin time = 2026/08/16 15:37:27 ( 8 days, 2 hours, 22 minutes, 48.5462 seconds ago )
+
+ 99) "Backup Agent" ASN:0x0-0xdeadbeef: 
+    bundleID="com.example.backupagent"
+    bundle path="/Applications/Backup Agent.app"
+    executable path="/Applications/Backup Agent.app/Contents/MacOS/Backup Agent"
+    checkin time = 2026/08/20 09:00:00 ( 4 days, 9 hours, 0 minutes, 0 seconds ago )

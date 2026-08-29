@@ -1,2 +1,7 @@
 .DS_Store
 .dn/
+
+# benchmark/ is a standalone Rust crate; its own build output is scratch,
+# but benchmark/Cargo.lock is committed deliberately (see benchmark/README.md)
+# so a third party builds the exact dependency versions behind published numbers.
+benchmark/target/

@@ -1,0 +1,432 @@
+{
+  "rootPid": 40000,
+  "processes": [
+    {
+      "pid": 40000,
+      "ppid": 1,
+      "name": "Electron",
+      "executablePath": "/Applications/Collaborator.app/Contents/MacOS/Collaborator",
+      "rssBytes": 209715200
+    },
+    {
+      "pid": 41000,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 40000000
+    },
+    {
+      "pid": 41001,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 40000000
+    },
+    {
+      "pid": 41002,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 40000000
+    },
+    {
+      "pid": 41003,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 40000000
+    },
+    {
+      "pid": 41004,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 40000000
+    },
+    {
+      "pid": 41005,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 40000000
+    },
+    {
+      "pid": 41006,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 40000000
+    },
+    {
+      "pid": 41007,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 40000000
+    },
+    {
+      "pid": 41008,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 40000000
+    },
+    {
+      "pid": 41009,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 40000000
+    },
+    {
+      "pid": 41010,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 40000000
+    },
+    {
+      "pid": 41011,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 40000000
+    },
+    {
+      "pid": 41012,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 40000000
+    },
+    {
+      "pid": 41013,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 40000000
+    },
+    {
+      "pid": 41014,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 40000000
+    },
+    {
+      "pid": 41015,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 40000000
+    },
+    {
+      "pid": 41016,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 40000000
+    },
+    {
+      "pid": 41017,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 40000000
+    },
+    {
+      "pid": 41018,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 40000000
+    },
+    {
+      "pid": 41019,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 40000000
+    },
+    {
+      "pid": 41020,
+      "ppid": 40000,
+      "name": "Electron Helper (GPU)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (GPU).app/Contents/MacOS/Electron Helper (GPU)",
+      "rssBytes": 40000000
+    },
+    {
+      "pid": 41021,
+      "ppid": 40000,
+      "name": "Electron Helper (Plugin)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Plugin).app/Contents/MacOS/Electron Helper (Plugin)",
+      "rssBytes": 40000000
+    },
+    {
+      "pid": 41022,
+      "ppid": 40000,
+      "name": "Electron Helper (Plugin)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Plugin).app/Contents/MacOS/Electron Helper (Plugin)",
+      "rssBytes": 40000000
+    },
+    {
+      "pid": 41023,
+      "ppid": 40000,
+      "name": "Electron Helper",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper.app/Contents/MacOS/Electron Helper",
+      "rssBytes": 40000000
+    },
+    {
+      "pid": 41024,
+      "ppid": 40000,
+      "name": "node",
+      "executablePath": "/Applications/Collaborator.app/Contents/Resources/app/bin/node",
+      "rssBytes": 40000000
+    },
+    {
+      "pid": 41025,
+      "ppid": 40000,
+      "name": "tmux",
+      "executablePath": "/Applications/Collaborator.app/Contents/Resources/vendor/tmux",
+      "rssBytes": 40000000
+    },
+    {
+      "pid": 41026,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 38000000
+    },
+    {
+      "pid": 41027,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 38000000
+    },
+    {
+      "pid": 41028,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 38000000
+    },
+    {
+      "pid": 41029,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 38000000
+    },
+    {
+      "pid": 41030,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 38000000
+    },
+    {
+      "pid": 41031,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 38000000
+    },
+    {
+      "pid": 41032,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 38000000
+    },
+    {
+      "pid": 41033,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 38000000
+    },
+    {
+      "pid": 41034,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 38000000
+    },
+    {
+      "pid": 41035,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 38000000
+    },
+    {
+      "pid": 41036,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 38000000
+    },
+    {
+      "pid": 41037,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 38000000
+    },
+    {
+      "pid": 41038,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 38000000
+    },
+    {
+      "pid": 41039,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 38000000
+    },
+    {
+      "pid": 41040,
+      "ppid": 40000,
+      "name": "Electron Helper (Renderer)",
+      "executablePath": "/Applications/Collaborator.app/Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+      "rssBytes": 38000000
+    },
+    {
+      "pid": 41041,
+      "ppid": 41024,
+      "name": "zsh",
+      "executablePath": "/bin/zsh",
+      "rssBytes": 3145728
+    },
+    {
+      "pid": 41042,
+      "ppid": 41025,
+      "name": "zsh",
+      "executablePath": "/bin/zsh",
+      "rssBytes": 3145728
+    },
+    {
+      "pid": 41043,
+      "ppid": 41024,
+      "name": "zsh",
+      "executablePath": "/bin/zsh",
+      "rssBytes": 3145728
+    },
+    {
+      "pid": 41044,
+      "ppid": 41025,
+      "name": "zsh",
+      "executablePath": "/bin/zsh",
+      "rssBytes": 3145728
+    },
+    {
+      "pid": 41045,
+      "ppid": 41024,
+      "name": "zsh",
+      "executablePath": "/bin/zsh",
+      "rssBytes": 3145728
+    },
+    {
+      "pid": 41046,
+      "ppid": 41025,
+      "name": "zsh",
+      "executablePath": "/bin/zsh",
+      "rssBytes": 3145728
+    },
+    {
+      "pid": 41047,
+      "ppid": 41024,
+      "name": "zsh",
+      "executablePath": "/bin/zsh",
+      "rssBytes": 3145728
+    },
+    {
+      "pid": 41048,
+      "ppid": 41025,
+      "name": "zsh",
+      "executablePath": "/bin/zsh",
+      "rssBytes": 3145728
+    },
+    {
+      "pid": 41049,
+      "ppid": 41024,
+      "name": "zsh",
+      "executablePath": "/bin/zsh",
+      "rssBytes": 3145728
+    },
+    {
+      "pid": 41050,
+      "ppid": 41025,
+      "name": "zsh",
+      "executablePath": "/bin/zsh",
+      "rssBytes": 3145728
+    },
+    {
+      "pid": 41051,
+      "ppid": 41024,
+      "name": "zsh",
+      "executablePath": "/bin/zsh",
+      "rssBytes": 3145728
+    },
+    {
+      "pid": 41052,
+      "ppid": 41025,
+      "name": "zsh",
+      "executablePath": "/bin/zsh",
+      "rssBytes": 3145728
+    },
+    {
+      "pid": 41053,
+      "ppid": 41024,
+      "name": "zsh",
+      "executablePath": "/bin/zsh",
+      "rssBytes": 3145728
+    },
+    {
+      "pid": 41054,
+      "ppid": 41025,
+      "name": "zsh",
+      "executablePath": "/bin/zsh",
+      "rssBytes": 3145728
+    },
+    {
+      "pid": 41055,
+      "ppid": 41024,
+      "name": "zsh",
+      "executablePath": "/bin/zsh",
+      "rssBytes": 3145728
+    },
+    {
+      "pid": 41056,
+      "ppid": 41025,
+      "name": "zsh",
+      "executablePath": "/bin/zsh",
+      "rssBytes": 3145728
+    },
+    {
+      "pid": 41057,
+      "ppid": 41024,
+      "name": "zsh",
+      "executablePath": "/bin/zsh",
+      "rssBytes": 3145728
+    },
+    {
+      "pid": 90001,
+      "ppid": 90002,
+      "name": "cyclic_a",
+      "executablePath": "/usr/libexec/cyclic_a",
+      "rssBytes": 1048576
+    },
+    {
+      "pid": 90002,
+      "ppid": 90001,
+      "name": "cyclic_b",
+      "executablePath": "/usr/libexec/cyclic_b",
+      "rssBytes": 1048576
+    }
+  ]
+}

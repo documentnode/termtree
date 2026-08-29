@@ -1,0 +1,25 @@
+2026-08-24 18:00:38.104 INFO termtree_lib - Raised FD limit: 9223372036854775807 -> 9223372036854775807
+2026-08-24 18:00:38.106 INFO termtree_lib - ========================================
+2026-08-24 18:00:38.106 INFO termtree_lib - TermTree v0.1.0 (release)
+2026-08-24 18:00:38.106 INFO termtree_lib - OS: Darwin 15.7.4, Arch: aarch64
+2026-08-24 18:00:38.107 INFO termtree_lib - Data dir: /Users/bench/Library/Application Support/DocumentNode/TermTree
+2026-08-24 18:00:38.107 INFO termtree_lib - Bundle id: com.documentnode.termtree, WebView2 profile: TermTree
+2026-08-24 18:00:38.107 INFO termtree_lib - ========================================
+2026-08-24 18:00:38.219 INFO termtree_lib::settings - Settings loaded (10 keys) from /Users/bench/Library/Application Support/DocumentNode/TermTree/settings.json
+2026-08-24 18:00:38.221 INFO termtree_lib::command::locale_cmd - [locale] startup locale resolved: en
+2026-08-24 18:00:38.244 INFO termtree_lib - splash_monitor - started (max=15s)
+2026-08-24 18:00:38.251 INFO termtree_lib::http::server - http::server - bound to 127.0.0.1:58854
+2026-08-24 18:00:38.252 INFO termtree_lib - Local HTTP server started on port 58854
+2026-08-24 18:00:38.258 INFO actix_server::builder - starting 8 workers
+2026-08-24 18:00:38.259 INFO actix_server::server - Actix runtime found; starting in Actix runtime
+2026-08-24 18:00:38.301 INFO app_util::wake_detection - Registering macOS sleep/wake observer
+2026-08-24 18:00:38.302 INFO app_util::wake_detection - Starting wake-detection heartbeat timer (interval=5s, gap=15s)
+2026-08-24 18:00:38.302 INFO app_util::wake_detection - Starting periodic health-check timer (interval=60s)
+2026-08-24 18:00:39.518 INFO termtree_lib::command::state_cmd - State loaded (7454 bytes) from /Users/bench/Library/Application Support/DocumentNode/TermTree/state.json
+2026-08-24 18:00:39.522 INFO termtree_lib::command::buffer_cmd - cleanup_session_buffers: keeping 0 session(s)
+2026-08-24 18:00:39.540 INFO termtree_lib::command::terminal_cmd - close_all_terminal_sessions: closed 0 stale session(s) at boot
+2026-08-24 18:00:39.571 INFO termtree_lib::shell_detect - Detected 1 shell(s): zsh
+2026-08-24 18:00:39.612 INFO termtree_lib::command::window_cmd - app_window_ready: main
+2026-08-24 18:00:40.126 INFO termtree_lib - splash_monitor - main window ready, closing splashscreen
+2026-08-24 18:00:40.128 INFO termtree_lib - splash_monitor - done
+2026-08-24 18:00:40.204 INFO termtree_lib::command::terminal_cmd - start_shell: session_id=c45eb033-c0d5-47ab-b9ae-7b33d77ab5a5, node_id=sample-mindmap-api-server, rows=24, cols=80, cwd=None, command=None

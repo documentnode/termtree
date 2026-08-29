@@ -1,0 +1,69 @@
+name: benchmark
+
+# CI guardrail for benchmark/ (taskhub#669) -- the one directory of runnable
+# source in this otherwise source-free, closed-source repository. Runs on
+# macOS because the harness is macOS-only by design: it depends on
+# lsappinfo, footprint, vm_stat, notifyutil, and pmset, all Darwin-only
+# tools.
+#
+# This workflow builds, lints, and tests the harness only. It deliberately
+# never runs `resource-benchmark run` (or `doctor` against real installed
+# subjects): a real sweep needs an exclusive, quiesced physical machine for
+# hours, and its numbers would be meaningless -- and misleading -- if
+# produced on a shared, noisy CI runner. Do not add that here.
+
+on:
+  push:
+    paths:
+      - 'benchmark/**'
+      - '.github/workflows/benchmark.yml'
+  pull_request:
+    paths:
+      - 'benchmark/**'
+      - '.github/workflows/benchmark.yml'
+
+concurrency:
+  group: benchmark-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+defaults:
+  run:
+    working-directory: benchmark
+
+jobs:
+  check:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Rust stable
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          components: clippy
+
+      # benchmark/rustfmt.toml sets nightly-only options (e.g.
+      # unstable_features), so the format check needs a nightly rustfmt --
+      # stable `cargo fmt` reads a different subset of the config and
+      # produces different output.
+      - name: Install Rust nightly (rustfmt only)
+        uses: dtolnay/rust-toolchain@nightly
+        with:
+          components: rustfmt
+
+      - name: Rust cache
+        uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: benchmark -> target
+
+      - name: Format check (nightly rustfmt)
+        run: cargo +nightly fmt -- --check
+
+      - name: Clippy
+        run: cargo clippy --all-targets -- -D warnings
+
+      - name: Test
+        run: cargo test

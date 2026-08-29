@@ -1,0 +1,152 @@
+{
+  "rootPid": 56070,
+  "processes": [
+    {
+      "pid": 56070,
+      "ppid": 1,
+      "name": "termtree",
+      "executablePath": "/Applications/TermTree.app/Contents/MacOS/termtree",
+      "rssBytes": 83923136
+    },
+    {
+      "pid": 70000,
+      "ppid": 56070,
+      "name": "zsh",
+      "executablePath": "/bin/zsh",
+      "rssBytes": 3145728
+    },
+    {
+      "pid": 70001,
+      "ppid": 70000,
+      "name": "claude",
+      "executablePath": "/Users/dev/.local/bin/claude",
+      "rssBytes": 52428800
+    },
+    {
+      "pid": 70002,
+      "ppid": 70001,
+      "name": "rg",
+      "executablePath": "/opt/homebrew/bin/rg",
+      "rssBytes": 2097152
+    },
+    {
+      "pid": 70003,
+      "ppid": 70001,
+      "name": "rg",
+      "executablePath": "/opt/homebrew/bin/rg",
+      "rssBytes": 2097152
+    },
+    {
+      "pid": 70004,
+      "ppid": 56070,
+      "name": "zsh",
+      "executablePath": "/bin/zsh",
+      "rssBytes": 3145728
+    },
+    {
+      "pid": 70005,
+      "ppid": 70004,
+      "name": "claude",
+      "executablePath": "/Users/dev/.local/bin/claude",
+      "rssBytes": 52428800
+    },
+    {
+      "pid": 70006,
+      "ppid": 70005,
+      "name": "rg",
+      "executablePath": "/opt/homebrew/bin/rg",
+      "rssBytes": 2097152
+    },
+    {
+      "pid": 70007,
+      "ppid": 70005,
+      "name": "rg",
+      "executablePath": "/opt/homebrew/bin/rg",
+      "rssBytes": 2097152
+    },
+    {
+      "pid": 70008,
+      "ppid": 56070,
+      "name": "zsh",
+      "executablePath": "/bin/zsh",
+      "rssBytes": 3145728
+    },
+    {
+      "pid": 70009,
+      "ppid": 70008,
+      "name": "claude",
+      "executablePath": "/Users/dev/.local/bin/claude",
+      "rssBytes": 52428800
+    },
+    {
+      "pid": 70010,
+      "ppid": 70009,
+      "name": "rg",
+      "executablePath": "/opt/homebrew/bin/rg",
+      "rssBytes": 2097152
+    },
+    {
+      "pid": 70011,
+      "ppid": 70009,
+      "name": "rg",
+      "executablePath": "/opt/homebrew/bin/rg",
+      "rssBytes": 2097152
+    },
+    {
+      "pid": 70012,
+      "ppid": 56070,
+      "name": "zsh",
+      "executablePath": "/bin/zsh",
+      "rssBytes": 3145728
+    },
+    {
+      "pid": 70013,
+      "ppid": 70012,
+      "name": "claude",
+      "executablePath": "/Users/dev/.local/bin/claude",
+      "rssBytes": 52428800
+    },
+    {
+      "pid": 70014,
+      "ppid": 70013,
+      "name": "rg",
+      "executablePath": "/opt/homebrew/bin/rg",
+      "rssBytes": 2097152
+    },
+    {
+      "pid": 70015,
+      "ppid": 70013,
+      "name": "rg",
+      "executablePath": "/opt/homebrew/bin/rg",
+      "rssBytes": 2097152
+    },
+    {
+      "pid": 70016,
+      "ppid": 56070,
+      "name": "zsh",
+      "executablePath": "/bin/zsh",
+      "rssBytes": 3145728
+    },
+    {
+      "pid": 70017,
+      "ppid": 70016,
+      "name": "claude",
+      "executablePath": "/Users/dev/.local/bin/claude",
+      "rssBytes": 52428800
+    },
+    {
+      "pid": 70018,
+      "ppid": 70017,
+      "name": "rg",
+      "executablePath": "/opt/homebrew/bin/rg",
+      "rssBytes": 2097152
+    },
+    {
+      "pid": 99999,
+      "ppid": 1,
+      "name": "unrelated_daemon",
+      "executablePath": "/usr/libexec/unrelated_daemon",
+      "rssBytes": 1048576
+    }
+  ]
+}

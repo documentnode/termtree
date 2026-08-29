@@ -29,6 +29,11 @@ security fixes. Update from within the app, or download the current version at
 In scope: the TermTree desktop application, its update mechanism, its optional cloud sync, and the
 install script served at <https://termtree.com/install.sh>.
 
+Out of scope: the `benchmark/` harness published in this repository. It is a local developer tool
+you build and run yourself — it launches other applications on your own machine under your own
+account, and writes only to its own disposable scratch directory. Report bugs in it as an issue,
+not as a security report.
+
 Out of scope: the security of programs you choose to run inside TermTree's terminals. Those are
 ordinary terminal sessions — Claude Code, Codex, shells, servers, and other CLIs run with your own
 credentials under their own security models, exactly as they would in any other terminal emulator.
