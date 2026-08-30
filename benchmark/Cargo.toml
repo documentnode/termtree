@@ -1,0 +1,31 @@
+[package]
+name = "resource-benchmark"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "Resource-usage benchmark harness for TermTree vs comparable agent-orchestrator apps (doc/design/resource-benchmark-design.md)"
+
+# Deliberately its own workspace, outside src-tauri: this is a measurement
+# tool, so it must never lengthen an app build or a CI run (justfile:101-107,
+# tools/update-feed's precedent, spec FR-16).
+[workspace]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+# Pinned to the exact version src-tauri/Cargo.toml uses, so the harness's
+# process-tree walk has identical semantics to the app's own
+# get_descendant_pids_and_names (terminal_cmd.rs:1588).
+sysinfo = "0.33"
+# core-graphics's CGWindowListCopyWindowInfo returns an untyped CFArray of
+# CFDictionary entries; core-foundation is what lets window_probe.rs read
+# kCGWindowOwnerPID/kCGWindowLayer/kCGWindowBounds out of it safely. The
+# design budgeted 4 direct crates; this 5th is the same trade it already
+# made for core-graphics itself -- a maintained wrapper instead of ~150
+# lines of hand-rolled CFDictionaryRef FFI (design §4.3's own reasoning).
+core-graphics = "0.24"
+core-foundation = "0.10"
+
+[[bin]]
+name = "resource-benchmark"
+path = "src/main.rs"

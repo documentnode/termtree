@@ -1,0 +1,13 @@
+2026-08-24 18:14:02.088 INFO termtree_lib - Raised FD limit: 9223372036854775807 -> 9223372036854775807
+2026-08-24 18:14:02.090 INFO termtree_lib - ========================================
+2026-08-24 18:14:02.090 INFO termtree_lib - TermTree v0.1.0 (release)
+2026-08-24 18:14:02.090 INFO termtree_lib - OS: Darwin 15.7.4, Arch: aarch64
+2026-08-24 18:14:02.091 INFO termtree_lib - Data dir: /Users/bench/Library/Application Support/DocumentNode/TermTree
+2026-08-24 18:14:02.091 INFO termtree_lib - ========================================
+2026-08-24 18:14:02.205 INFO termtree_lib::settings - Settings loaded (10 keys) from /Users/bench/Library/Application Support/DocumentNode/TermTree/settings.json
+2026-08-24 18:14:02.231 INFO termtree_lib - splash_monitor - started (max=15s)
+2026-08-24 18:14:02.240 INFO termtree_lib::http::server - http::server - bound to 127.0.0.1:58861
+2026-08-24 18:14:02.301 INFO app_util::wake_detection - Starting wake-detection heartbeat timer (interval=5s, gap=15s)
+2026-08-24 18:14:09.884 WARN termtree_lib::wake_handler - [wake] last launch ended with "splash_monitor - max timeout reached, forcing transition"; treating this launch as a cold start
+2026-08-24 18:14:17.236 INFO termtree_lib - splash_monitor - max timeout reached, forcing transition
+2026-08-24 18:14:17.402 INFO termtree_lib - splash_monitor - done

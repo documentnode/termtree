@@ -61,7 +61,7 @@ Full walkthrough: **[Getting Started](https://termtree.com/guide/getting-started
 
 ## Issues and support
 
-This repository is TermTree's public issue tracker. The application itself is closed source, so there is no code here — but bug reports, feature requests, and questions are all welcome and are read.
+This repository is TermTree's public issue tracker. The application itself is closed source — the only exception is the `benchmark/` harness described below — but bug reports, feature requests, and questions are all welcome and are read.
 
 - **Found a bug?** [Open a bug report](https://github.com/documentnode/termtree/issues/new?template=bug_report.yml). Include your OS, TermTree version, and steps to reproduce.
 - **Want a feature?** [Open a feature request](https://github.com/documentnode/termtree/issues/new?template=feature_request.yml).
@@ -71,6 +71,15 @@ This repository is TermTree's public issue tracker. The application itself is cl
 You can also send feedback from inside the app using the feedback button in the toolbar, which attaches your version and platform automatically. For account, billing, or licence questions, email [support@documentnode.io](mailto:support@documentnode.io).
 
 Response times vary, but every issue gets triaged.
+
+## Resource benchmark
+
+TermTree's memory, CPU, and cold-start claims rest on a harness published in this repository at
+[`benchmark/`](benchmark/), the one deliberate exception to this repo's otherwise source-free,
+closed-source posture: numbers are only credible if strangers can measure them independently.
+It is released under the Apache License 2.0, scoped to that directory — see
+[`benchmark/LICENSE`](benchmark/LICENSE). For what it measures and how to run it, see
+[`benchmark/README.md`](benchmark/README.md).
 
 ## Links
 

@@ -1,0 +1,6 @@
+# Build output for this standalone crate.
+target/
+# Run results are attached to the published artifact deliberately, not
+# committed as run debris (design §4.1).
+results/*.json
+results/*.md

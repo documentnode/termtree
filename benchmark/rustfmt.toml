@@ -1,0 +1,5 @@
+unstable_features = true
+indent_style = "Block"
+tab_spaces = 2
+max_width = 80
+overflow_delimited_expr = true

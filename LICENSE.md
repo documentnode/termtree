@@ -1,7 +1,7 @@
 # Licence
 
-**TermTree is proprietary software. This repository contains documentation and release metadata
-only — it contains no TermTree source code.**
+**TermTree is proprietary software. This repository contains documentation, release metadata, and
+one standalone benchmark harness — it contains no TermTree source code.**
 
 ## This repository
 
@@ -10,9 +10,20 @@ accompanying images — are published by Document Node Pty Ltd so that people ca
 follow its releases, and report problems. They are made available for that purpose. All rights are
 reserved; no licence to the TermTree application is granted by anything in this repository.
 
-This repository is deliberately **not** published under an open source licence. TermTree's source
-code is not distributed, so there is nothing here for an open source licence to cover, and applying
-one would misrepresent what is on offer.
+Outside of the `benchmark/` directory described below, this repository is deliberately **not**
+published under an open source licence. TermTree's source code is not distributed here, so there
+is nothing else in this repository for an open source licence to cover, and applying one would
+misrepresent what is on offer.
+
+## The benchmark harness
+
+`benchmark/` is a deliberate, narrowly scoped exception. It is a standalone measurement tool, not
+part of the TermTree application, and TermTree's published memory, CPU, and cold-start figures
+depend on it — a benchmark nobody can run is an assertion, not evidence. For that reason `benchmark/`
+is published under the Apache License, Version 2.0, reproduced in
+[`benchmark/LICENSE`](benchmark/LICENSE). That licence covers the contents of the `benchmark/`
+directory only; it does not extend to any other part of this repository or to the TermTree
+application itself.
 
 ## The TermTree application
 
